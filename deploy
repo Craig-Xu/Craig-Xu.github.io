@@ -1,6 +1,6 @@
 hugo server 
 rm docs -rf
-cp public docs
+cp public docs -r
 git add *
 git commit -m "update blog"
 git push
