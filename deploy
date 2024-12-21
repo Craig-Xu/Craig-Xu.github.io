@@ -1,4 +1,4 @@
-hugo server 
+hugo
 rm docs -rf
 cp public docs -r
 git add *
