@@ -13,7 +13,9 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Sat, 21 Dec 2024 22:49:20 +0800</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
+&lt;p&gt;Hello, I&amp;rsquo;m a student@ZJU.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>
