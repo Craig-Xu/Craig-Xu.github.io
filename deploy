@@ -1,4 +1,4 @@
-hugo server -d docs
+hugo server -D docs
 git add *
 git commit -m "update blog"
 git push
