@@ -7,3 +7,5 @@ title = 'About'
 # About
 
 Hello, I'm a student@ZJU.
+
+I am generally interested in robotics, computer science, and machine learning. 
