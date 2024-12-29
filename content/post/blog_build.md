@@ -1,8 +1,19 @@
 +++
-date = '2024-12-29T17:52:39+08:00'
+date = '2024-12-29T14:52:39+08:00'
 draft = false
 title = 'Hugo博客搭建教程'
+featured_image = "/images/notebook.jpg"
+
 +++
+
+一些个性化的博客主题配置
+
+<!--more-->
+
+# 主题
+
+[Diary](https://github.com/AmazingRise/hugo-theme-diary)
+
 
 # 字体
 

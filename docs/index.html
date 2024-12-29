@@ -50,6 +50,26 @@
 
 
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+
 
 
 
@@ -73,6 +93,16 @@
         <div class="drawer-menu">
             
             
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/categories">
+                    Categories
+                </a>
+                
             
             
         </div>
@@ -116,85 +146,6 @@
     <div class="post-list-container post-list-container-no-background">
         
         
-            <a href="/post/blog_build/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-divider">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                Hugo博客搭建教程
-                            </div>
-                            <div class="post-item-summary">
-                                
-                                    <h1 id="字体">字体</h1>
-<p><a href="https://hsingko.pages.dev/post/2022/09/21/using-lxgwwenkai-in-my-blog/">字体自定义</a>
-<a href="https://github.com/lxgw/LxgwWenKai">霞鹜文楷</a>
-<a href="https://xyproto.github.io/splash/docs/all.html">代码高亮</a></p>
-<pre tabindex="0"><code>[markup]
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = &#34;&#34;
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    style = &#34;monokai&#34;
-    tabWidth = 4
-</code></pre>
-                                
-                            </div>
-                            <div class="post-item-meta">
-    2024-12-29
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
-
-                        </div>
-                        
-                        
-                    </div>
-                </div>
-        
-            <a href="/post/ubuntu_env/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-divider">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                ROS环境搭建与常见配置
-                            </div>
-                            <div class="post-item-summary">
-                                
-                                    <h1 id="ros">ROS</h1>
-<div class="highlight"><pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>wget http://fishros.com/install -O fishros <span style="color:#fe8019">&amp;&amp;</span> . fishros
-</span></span></code></pre></div><h1 id="gazebo">Gazebo</h1>
-<div class="highlight"><pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#fabd2f">cd</span> ~/.gazebo/
-</span></span><span style="display:flex;"><span>git clone https://github.com/osrf/gazebo_models.git models
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>sudo chmod <span style="color:#d3869b">777</span> ~/.gazebo/models
-</span></span><span style="display:flex;"><span>sudo chmod <span style="color:#d3869b">777</span> ~/.gazebo/models/*
-</span></span></code></pre></div>
-                                
-                            </div>
-                            <div class="post-item-meta">
-    2024-12-29
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
-
-                        </div>
-                        
-                        
-                    </div>
-                </div>
-        
             <a href="/post/scout_mini/" class="a-block">
                 <div class="post-item-wrapper">
                     <div class="post-item post-item-no-divider">
@@ -204,10 +155,7 @@
                             </div>
                             <div class="post-item-summary">
                                 
-                                    <h2 id="repo">Repo</h2>
-<div class="highlight"><pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>git clone https://github.com/Kazimbalti/Scout_mini_ROS1_Navigation
-</span></span><span style="display:flex;"><span>git clone https://github.com/Kinovarobotics/kinova-ros
-</span></span></code></pre></div>
+                                    
                                 
                             </div>
                             <div class="post-item-meta">
@@ -222,6 +170,92 @@
 
                         </div>
                         
+                        
+                            
+                            <div class="post-item-image-wrapper">
+                            <div class="post-item-image"
+                            
+                            
+                                style="background-image: url('https://assets.iqr-robot.com/wp-content/uploads/2023/06/SCOUT-MINI-%E9%BA%A6%E5%85%8B%E7%BA%B3%E5%A7%86%E8%BD%AE-%E6%96%9C%E8%A7%86%E5%9B%BE%EF%BC%88%E6%97%A0%E8%83%8C%E6%99%AF%EF%BC%89-1536x1151.png')"
+                            
+                            ></div>
+                            </div>
+                        
+                    </div>
+                </div>
+        
+            <a href="/post/ros_env/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-divider">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                ROS环境搭建与配置
+                            </div>
+                            <div class="post-item-summary">
+                                
+                                    <p>常见ROS环境配置记录</p>
+                                
+                            </div>
+                            <div class="post-item-meta">
+    2024-12-29
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                        
+                        
+                            
+                            <div class="post-item-image-wrapper">
+                            <div class="post-item-image"
+                            
+                            
+                                style="background-image: url('https://tse4-mm.cn.bing.net/th/id/OIP-C.CJy0h23BhZ8U6T0kk7wPRAAAAA?rs=1&amp;pid=ImgDetMain')"
+                            
+                            ></div>
+                            </div>
+                        
+                    </div>
+                </div>
+        
+            <a href="/post/blog_build/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-divider">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                Hugo博客搭建教程
+                            </div>
+                            <div class="post-item-summary">
+                                
+                                    <p>一些个性化的博客主题配置</p>
+                                
+                            </div>
+                            <div class="post-item-meta">
+    2024-12-29
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                        
+                        
+                            
+                            <div class="post-item-image-wrapper">
+                            <div class="post-item-image"
+                            
+                            
+                                style="background-image: url('https://craig-xu.github.io/images/notebook.jpg')"
+                            
+                            ></div>
+                            </div>
                         
                     </div>
                 </div>
@@ -286,7 +320,6 @@
         </a>
     </div>
 
-
                     </div>
             </div><div id="sideContainer" class="side-container">
     
@@ -300,6 +333,16 @@
 
     <div class="nav-link-list">
         
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/categories">
+                Categories
+            </a>
+            
         
     </div>
 

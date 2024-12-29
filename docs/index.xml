@@ -6,19 +6,55 @@
     <description>Recent content on Craig Xu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Dec 2024 17:52:39 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 29 Dec 2024 17:52:02 +0800</lastBuildDate>
     
         <atom:link href="https://craig-xu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     
         <item>
+        <title>松灵 Scout mini 仿真教程</title>
+        <link>https://craig-xu.github.io/post/scout_mini/</link>
+        <pubDate>Sun, 29 Dec 2024 17:52:02 +0800</pubDate>
+        
+        <guid>https://craig-xu.github.io/post/scout_mini/</guid>
+        <description>Craig Xu https://craig-xu.github.io/post/scout_mini/ -&lt;h2 id=&#34;repo&#34;&gt;Repo&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git clone https://github.com/Kazimbalti/Scout_mini_ROS1_Navigation
+git clone https://github.com/Kinovarobotics/kinova-ros
+&lt;/code&gt;&lt;/pre&gt;- https://craig-xu.github.io/post/scout_mini/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>ROS环境搭建与配置</title>
+        <link>https://craig-xu.github.io/post/ros_env/</link>
+        <pubDate>Sun, 29 Dec 2024 16:41:33 +0800</pubDate>
+        
+        <guid>https://craig-xu.github.io/post/ros_env/</guid>
+        <description>Craig Xu https://craig-xu.github.io/post/ros_env/ -&lt;p&gt;常见ROS环境配置记录&lt;/p&gt;
+&lt;h1 id=&#34;ros&#34;&gt;ROS&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;wget http://fishros.com/install -O fishros &amp;amp;&amp;amp; . fishros
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;gazebo&#34;&gt;Gazebo&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd ~/.gazebo/
+git clone https://github.com/osrf/gazebo_models.git models
+sudo chmod 777 ~/.gazebo/models
+sudo chmod 777 ~/.gazebo/models/*
+&lt;/code&gt;&lt;/pre&gt;- https://craig-xu.github.io/post/ros_env/ - </description>
+        </item>
+    
+    
+    
+        <item>
         <title>Hugo博客搭建教程</title>
         <link>https://craig-xu.github.io/post/blog_build/</link>
-        <pubDate>Sun, 29 Dec 2024 17:52:39 +0800</pubDate>
+        <pubDate>Sun, 29 Dec 2024 14:52:39 +0800</pubDate>
         
         <guid>https://craig-xu.github.io/post/blog_build/</guid>
-        <description>Craig Xu https://craig-xu.github.io/post/blog_build/ -&lt;h1 id=&#34;字体&#34;&gt;字体&lt;/h1&gt;
+        <description>Craig Xu https://craig-xu.github.io/post/blog_build/ -&lt;p&gt;一些个性化的博客主题配置&lt;/p&gt;
+&lt;h1 id=&#34;主题&#34;&gt;主题&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/AmazingRise/hugo-theme-diary&#34;&gt;Diary&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;字体&#34;&gt;字体&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://hsingko.pages.dev/post/2022/09/21/using-lxgwwenkai-in-my-blog/&#34;&gt;字体自定义&lt;/a&gt;
 &lt;a href=&#34;https://github.com/lxgw/LxgwWenKai&#34;&gt;霞鹜文楷&lt;/a&gt;
 &lt;a href=&#34;https://xyproto.github.io/splash/docs/all.html&#34;&gt;代码高亮&lt;/a&gt;&lt;/p&gt;
@@ -34,39 +70,6 @@
     style = &amp;#34;monokai&amp;#34;
     tabWidth = 4
 &lt;/code&gt;&lt;/pre&gt;- https://craig-xu.github.io/post/blog_build/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>ROS环境搭建与常见配置</title>
-        <link>https://craig-xu.github.io/post/ubuntu_env/</link>
-        <pubDate>Sun, 29 Dec 2024 16:41:33 +0800</pubDate>
-        
-        <guid>https://craig-xu.github.io/post/ubuntu_env/</guid>
-        <description>Craig Xu https://craig-xu.github.io/post/ubuntu_env/ -&lt;h1 id=&#34;ros&#34;&gt;ROS&lt;/h1&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wget http://fishros.com/install -O fishros &lt;span style=&#34;color:#fe8019&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; . fishros
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;gazebo&#34;&gt;Gazebo&lt;/h1&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fabd2f&#34;&gt;cd&lt;/span&gt; ~/.gazebo/
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/osrf/gazebo_models.git models
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo chmod &lt;span style=&#34;color:#d3869b&#34;&gt;777&lt;/span&gt; ~/.gazebo/models
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo chmod &lt;span style=&#34;color:#d3869b&#34;&gt;777&lt;/span&gt; ~/.gazebo/models/*
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;- https://craig-xu.github.io/post/ubuntu_env/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>松灵 Scout mini 仿真教程</title>
-        <link>https://craig-xu.github.io/post/scout_mini/</link>
-        <pubDate>Sun, 29 Dec 2024 15:52:02 +0800</pubDate>
-        
-        <guid>https://craig-xu.github.io/post/scout_mini/</guid>
-        <description>Craig Xu https://craig-xu.github.io/post/scout_mini/ -&lt;h2 id=&#34;repo&#34;&gt;Repo&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/Kazimbalti/Scout_mini_ROS1_Navigation
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/Kinovarobotics/kinova-ros
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;- https://craig-xu.github.io/post/scout_mini/ - </description>
         </item>
     
     

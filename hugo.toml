@@ -14,3 +14,15 @@ theme = 'diary'
     noClasses = true
     style = "gruvbox"
     tabWidth = 4
+
+[params]
+  enableLaTeX=true  
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[[menu.main]]
+url = "/categories"
+name = "Categories"
+weight = 2

@@ -49,6 +49,26 @@
 
 
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+
 
 
 
@@ -72,6 +92,16 @@
         <div class="drawer-menu">
             
             
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/categories">
+                    Categories
+                </a>
+                
             
             
             <div class="toc">
@@ -159,8 +189,15 @@
             
             
             
+                
+            
 
-            <div class="post-head-wrapper-text-only"
+            <div class="post-head-wrapper"
+                
+                    
+                    
+                    style="background-image: url('https://assets.iqr-robot.com/wp-content/uploads/2023/06/SCOUT-MINI-%E9%BA%A6%E5%85%8B%E7%BA%B3%E5%A7%86%E8%BD%AE-%E6%96%9C%E8%A7%86%E5%9B%BE%EF%BC%88%E6%97%A0%E8%83%8C%E6%99%AF%EF%BC%89-1536x1151.png')"
+                    
                 
             >
                 <div class="post-title">
@@ -169,10 +206,14 @@
                     <div class="post-meta">
                         
                         <time itemprop="datePublished">
-                            2024-12-29 15:52
+                            2024-12-29 17:52
                         </time>
                         
 
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="/categories/robotics">Robotics</a>
+                                &nbsp;
                         
 
                         
@@ -186,9 +227,9 @@
                 <div class="post-body" v-pre>
                 
                     <h2 id="repo">Repo</h2>
-<div class="highlight"><pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>git clone https://github.com/Kazimbalti/Scout_mini_ROS1_Navigation
-</span></span><span style="display:flex;"><span>git clone https://github.com/Kinovarobotics/kinova-ros
-</span></span></code></pre></div>
+<pre tabindex="0"><code>git clone https://github.com/Kazimbalti/Scout_mini_ROS1_Navigation
+git clone https://github.com/Kinovarobotics/kinova-ros
+</code></pre>
                     
                     <HR width="100%" id="EOF">
 		    <p style="color:#777;">Last modified on 2024-12-29</p>
@@ -200,14 +241,14 @@
             <nav class="post-pagination">
 
                 
-                <a class="newer-posts" href="/post/ubuntu_env/">
-			Next<br>ROS环境搭建与常见配置
+                <a class="newer-posts">
+			Next<br>No newer posts.
                 </a>
                 
                 
                 
-                <a class="older-posts" href="/about/">
-			Previous<br>About
+                <a class="older-posts" href="/post/ros_env/">
+			Previous<br>ROS环境搭建与配置
                 </a>
                 
             </nav>
@@ -243,6 +284,16 @@
 
     <div class="nav-link-list">
         
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/categories">
+                Categories
+            </a>
+            
         
     </div>
 
