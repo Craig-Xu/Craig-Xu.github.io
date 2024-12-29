@@ -13,13 +13,16 @@
     
     
         <item>
-        <title>ROS环境搭建</title>
+        <title>ROS环境搭建与常见配置</title>
         <link>https://craig-xu.github.io/post/ubuntu_env/</link>
         <pubDate>Sun, 29 Dec 2024 16:41:33 +0800</pubDate>
         
         <guid>https://craig-xu.github.io/post/ubuntu_env/</guid>
         <description>Craig Xu https://craig-xu.github.io/post/ubuntu_env/ -&lt;h1 id=&#34;ros&#34;&gt;ROS&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wget http://fishros.com/install -O fishros &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; . fishros
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;gazebo&#34;&gt;Gazebo&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd ~/.gazebo/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/osrf/gazebo_models.git models
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;- https://craig-xu.github.io/post/ubuntu_env/ - </description>
         </item>
     
