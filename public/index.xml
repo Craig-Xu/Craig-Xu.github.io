@@ -6,8 +6,17 @@
     <description>Recent content on Craig Xu</description>
     <generator>Hugo -- 0.139.4</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Dec 2024 22:57:43 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 29 Dec 2024 15:52:02 +0800</lastBuildDate>
     <atom:link href="https://craig-xu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scout_mini</title>
+      <link>https://craig-xu.github.io/post/scout_mini/</link>
+      <pubDate>Sun, 29 Dec 2024 15:52:02 +0800</pubDate>
+      <guid>https://craig-xu.github.io/post/scout_mini/</guid>
+      <description>&lt;h2 id=&#34;repo&#34;&gt;Repo&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/Kazimbalti/Scout_mini_ROS1_Navigation
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
     <item>
       <title>About</title>
       <link>https://craig-xu.github.io/about/</link>
