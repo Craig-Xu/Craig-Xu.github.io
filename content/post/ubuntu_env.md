@@ -16,4 +16,7 @@ wget http://fishros.com/install -O fishros && . fishros
 ```shell
 cd ~/.gazebo/
 git clone https://github.com/osrf/gazebo_models.git models
+
+sudo chmod 777 ~/.gazebo/models
+sudo chmod 777 ~/.gazebo/models/*
 ```
